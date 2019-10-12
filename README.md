@@ -1,6 +1,10 @@
 # Face-Celebrity-Recognition
 
-This project proposes the approaches for human face recognition, which focus on celebrities or public figures such as politicians, singers, or actors. The system starts training with an initial small data-set of celebrities’ photos with the pre-train MTCNN model for face detection. Next, the outcome of the previous stage will be used for face recognition task via pre-train FaceNet model. The pre-train FaceNet model was trained under Inception-ResNet-v1 Architecture with VGGFace2 data-set. In order to test the face recognition accuracy, we have experimented with the embedding output from FaceNet model with different classifiers such as Random Forest, KNN, SVC or LinearSVC. Later, we also introduced face recognition for new celebrities’ faces, which do not include in the data-set and using S.O.R.T algorithm to improve the accuracy. This training strategy has achieved a solid performance in face recognition in testing videos
+This project proposes the approaches for human face recognition, which focus on celebrities or public figures such as politicians, singers, or actors. The system starts training with an initial small data-set of celebrities’ photos with the **pre-train MTCNN model for face detection**. Next, the outcome of the previous stage will be used for **face recognition** task via pre-train **FaceNet model**. The pre-train FaceNet model was trained under **Inception-ResNet-v1 Architecture** with VGGFace2 data-set. In order to test the face recognition accuracy, we have experimented with the embedding output from FaceNet model with different classifiers such as **Random Forest, KNN, SVC or LinearSVC**. Later, we also introduced face recognition for new celebrities’ faces, which do not include in the data-set and using **S.O.R.T algorithm** to improve the accuracy. This training strategy has achieved a solid performance in face recognition in testing videos
+
+**The Suggested Approach:**
+
+![The Suggested Approach](./report/01bigpicture.png)
 
 ### 1. Create raw image directory.
 Create a directory for your raw images so that images from different people are in different subdirectories.The name of subdirectory is the label name for that person and each person can have a different the number of images.
