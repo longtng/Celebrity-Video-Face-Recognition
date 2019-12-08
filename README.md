@@ -1,6 +1,7 @@
 The project was conducted in a group with DANG Ngoc-Vien (Ngoc-Vien.Dang@eurecom.fr) under the supervision of Prof. Benoit Huet (http://www.eurecom.fr/~huet/ - Benoit.Huet@eurecom.fr) at EURECOM.
 
 The original repo is in here: https://gitlab.eurecom.fr/longtng/incremental-celebrity-recognition/
+Later works: https://github.com/D2KLab/Face-Celebrity-Recognition (DANG Ngoc-Vien (Ngoc-Vien.Dang@eurecom.fr) and other collaborators)
 
 # Celebrity-Video-Face-Recognition
 
